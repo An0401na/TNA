@@ -1,5 +1,5 @@
 const mqtt = require("mqtt");
-const client = mqtt.connect("mqtt://203.249.22.47:8000");
+const client = mqtt.connect("");
 const mysql = require("mysql");
 var id;
 const rakhyun = "17917915513";
@@ -19,10 +19,10 @@ client.on("error", (err) => {
 });
 
 var con = mysql.createConnection({
-  host: "203.249.22.237",
-  port: "8888",
-  user: "root",
-  password: "dkdldpafnxm",
+  host: "",
+  port: "",
+  user: "",
+  password: "",
   database: "smart-iot-lab-web",
 });
 
