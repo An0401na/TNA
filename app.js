@@ -43,8 +43,20 @@ app.use(function (req, res, next) {
   //[2 번째 방법]
   var val = [
     {
-      id: 123,
-      title: "aaaaaab",
+      id: 1,
+      name: "aaa",
+    },
+    {
+      id: 2,
+      name: "bbb",
+    },
+    {
+      id: 3,
+      name: "ccc",
+    },
+    {
+      id: 4,
+      name: "ddd",
     },
   ];
   //writeHead, end 를 한번에 send, 그리고 객체를 보낼 수가 있음
